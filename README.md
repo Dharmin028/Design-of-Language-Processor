@@ -11,18 +11,18 @@
 ## to run YACC file:
 
 ### Create the files:
-#### Create two files: parser.y (YACC file) and lexer.l (Lex file).
+#### 1-> Create two files: parser.y (YACC file) and lexer.l (Lex file).
 
 ### Compile the Lex and YACC files:
 #### Use the following commands to generate the necessary files:
 
-##### yacc -d parser.y — This generates the y.tab.c (C source) and y.tab.h (header file).
-##### lex lexer.l — This generates the lex.yy.c file.
+##### 2-> yacc -d parser.y — This generates the y.tab.c (C source) and y.tab.h (header file).
+##### 3-> lex lexer.l — This generates the lex.yy.c file.
 
 ### Compile the C files:
 #### Use the gcc command to compile the generated C files:
-##### gcc -o parser y.tab.c lex.yy.c -ll -ly — This will compile and link the files to generate the executable parser.
+##### 4-> gcc -o parser y.tab.c lex.yy.c -ll -ly — This will compile and link the files to generate the executable parser.
 
 ### Run the program:
 
-##### Execute the program by running: ./parser.
+##### 5-> Execute the program by running: ./parser.
