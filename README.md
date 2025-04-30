@@ -4,8 +4,8 @@
 ## to run lex file:
 ##### 1-> go to cmd and traverse to path where lex file exist
 ##### 2-> lex "filename" (.l extension)
-##### 3-> gcc lex.yy.c -o "filename" (without extension)
-##### 4 -> ./"filename" (without extension)
+##### 3-> gcc lex.yy.c -o lexer -ll
+##### 4 -> ./lexer
 
 
 ## to run YACC file:
