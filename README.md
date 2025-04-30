@@ -3,7 +3,7 @@
 
 ## to run lex file:
 ##### 1-> go to cmd and traverse to path where lex file exist
-##### 2-> lex "filename" (.l extension)
+##### 2-> lex demo.l (replace demo with filename)
 ##### 3-> gcc lex.yy.c -o lexer -ll
 ##### 4 -> ./lexer
 
