@@ -2,7 +2,8 @@
 
 
 ## to run lex file:
-##### 1-> go to cmd and traverse to path where lex file exist
+##### 1-> go to cmd and traverse to path where lex file exist (cd C:\path\to\your\lex\file
+)
 ##### 2-> flex demo.l (replace demo with filename)
 ##### 3-> gcc lex.yy.c -o lexer.exe
 ##### 4 -> lexer.exe
