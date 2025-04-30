@@ -18,7 +18,7 @@
 #### Use the following commands to generate the necessary files:
 
 ##### 2-> yacc -d demo.y — This generates the y.tab.c (C source) and y.tab.h (header file). (replace demo with original file name)
-##### 3-> lex example.l — This generates the lex.yy.c file. (replace example with original file name)
+##### 3-> flex example.l — This generates the lex.yy.c file. (replace example with original file name)
 
 ### Compile the C files:
 #### Use the gcc command to compile the generated C files:
@@ -26,4 +26,4 @@
 
 ### Run the program:
 
-##### 5-> Execute the program by running: ./parser.
+##### 5-> Execute the program by running: parser.exe
