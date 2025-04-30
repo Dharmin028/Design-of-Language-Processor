@@ -17,7 +17,7 @@
 #### Use the following commands to generate the necessary files:
 
 ##### yacc -d parser.y — This generates the y.tab.c (C source) and y.tab.h (header file).
-###### lex lexer.l — This generates the lex.yy.c file.
+##### lex lexer.l — This generates the lex.yy.c file.
 
 ### Compile the C files:
 #### Use the gcc command to compile the generated C files:
